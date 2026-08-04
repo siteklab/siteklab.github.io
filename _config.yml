@@ -18,8 +18,8 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🧠 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
 
-url: https://siteklab.github.io # PLACEHOLDER — update together with the repo name when the lab name is finalized (see README)
-baseurl: "" # root site (username/org .github.io repos serve from "/", not a subpath)
+url: https://sitek.github.io # repo is owned by "sitek", not "siteklab" — Pages serves it as a project page, not the account root
+baseurl: "/siteklab.github.io" # matches the repo name, since it doesn't match the owner (see url comment above)
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
