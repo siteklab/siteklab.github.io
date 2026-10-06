@@ -70,6 +70,15 @@ The lab is part of the [School of Behavioral and Brain Sciences](https://bbs.utd
 [Callier Center for Communication Disorders](https://calliercenter.utdallas.edu/),
 which has research and clinical facilities on the Richardson campus and in Dallas, next to UT Southwestern Medical Center.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="lazy" path="assets/img/lab/callier-center-dallas.jpg" title="Callier Center Dallas" alt="The Callier Center Dallas building at dusk" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The Callier Center Dallas, home of the lab.
+</div>
+
 At the **Callier Center Dallas**, lab members have access to:
 
 - our lab's EEG, audiometry, and behavioral testing facilities

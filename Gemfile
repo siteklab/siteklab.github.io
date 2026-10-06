@@ -55,7 +55,6 @@ group :al_folio_plugins do
     gem 'al_search', '= 1.0.3'
     gem 'al_charts', '= 1.0.1'
     gem 'al_math', '= 1.0.2'
-    gem 'al_comments', '= 1.0.0'
     gem 'al_newsletter', '= 1.0.0'
 
     gem 'al_email_protect', '= 1.0.0'

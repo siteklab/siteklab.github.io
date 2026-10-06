@@ -1,4 +1,4 @@
+bibtexparser<2 # scholarly breaks on bibtexparser 2.x
 nbconvert
 pyyaml
-rendercv[full]
 scholarly

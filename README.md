@@ -16,6 +16,7 @@ documentation.
 
 - [x] ~~Lab name is still a placeholder~~ — now the Speech and Hearing Pathways Lab.
 - [x] ~~Contact email is a placeholder~~ — updated to `kevin.sitek@utdallas.edu`.
+- [x] ~~No link preview image~~ — `og_image` is the Callier Center Dallas photo; a lab logo could replace it.
 - [x] ~~No CV PDF set~~ — no CV page; the PI bio (`_pages/pi_bio.md`) links to the rendercv PDF on sitek.github.io.
 
 **Socials** (links live in `_data/socials.yml`)
@@ -35,15 +36,19 @@ documentation.
 - [x] ~~Fabricated bibliography author names/titles~~ — fixed; every entry verified against Crossref.
 - [x] ~~No way to catch this again~~ — `bin/verify_bibliography.py` checks `_bibliography/papers.bib` entries
       against Crossref; run it after adding or editing entries.
-- [ ] `_data/coauthors.yml` still has al-folio's demo (Einstein-era) data — regenerate or remove.
-- [ ] `_data/citations.yml` — confirm it's fully real data from `bin/update_scholar_citations.py`, not a demo/live
-      mix.
-- [ ] Audit `_news/`, `_projects/`, `_teachings/`, `_pages/pi_bio.md` for other fabricated-but-plausible details —
-      only the bibliography has been checked so far.
+- [x] ~~`_data/coauthors.yml` had al-folio's demo data~~ — emptied; add real co-author links there if wanted.
+- [x] ~~`_data/citations.yml` was al-folio's demo (Einstein) data~~ — regenerated from Kevin's Google Scholar profile
+      with `bin/update_scholar_citations.py`; `update-citations.yml` refreshes it Mon/Wed/Fri.
+- [x] ~~al-folio demo content was publicly reachable~~ — removed the demo blog posts, teaching and book pages,
+      repositories/plugins/submenu pages, and their assets (images, audio, video, notebooks, etc.).
+- [ ] Audit `_news/`, `_projects/`, `_pages/pi_bio.md` for other fabricated-but-plausible details — only the
+      bibliography has been checked so far.
 - [ ] More publications can be added to `_bibliography/papers.bib`; currently ports the preprints + peer-reviewed
       papers from Kevin's personal site, not the full conference-abstract list.
 - [ ] Additional lab members: duplicate a profile block in `_pages/profiles.md` (image + a new
-      `_pages/<name>_bio.md` content file) as people join.
+      `_pages/<name>_bio.md` content file ending in a CV/website links line) as people join. Keep the
+      "joining soon" entry last.
+- [ ] `_pages/join.md` — add the staff posting and UTD job board link once it's live.
 
 **Hosting & deployment**
 
@@ -61,11 +66,14 @@ documentation.
 - [x] ~~`update-tocs.yml`, `visual-regression.yml` missing~~ — evaluated and deliberately **not** restored: both are
       upstream-al-folio-project concerns (contributor-docs TOC maintenance, and pixel-diff parity against a
       pre-v1.x architecture baseline) that don't apply to a downstream single-owner site.
-- [ ] First real run of `unit-tests.yml` hasn't been confirmed green in CI yet.
+- [x] ~~`unit-tests.yml` failed on every push~~ — trimmed to the four integration tests that apply to this site
+      (`plugin_toggles`, `bootstrap_compat`, `upgrade_cli`, `css_minify`); the `comments`, `distill` and
+      `new_plugins` tests were removed along with the demo posts they built against.
+- [ ] Confirm the trimmed `unit-tests.yml` run is green in CI.
 
 **Integrations not yet configured**
 
-- [ ] Giscus comments: `repo_id` and `category_id` are empty in `_config.yml` — set up at giscus.app.
+- [x] ~~Giscus comments~~ — removed; the site has no comments (`al_comments` dropped from `Gemfile` and `_config.yml`).
 - [ ] No analytics configured (Google/Cronitor/Pirsch/Openpanel/Cloudflare all empty in `_config.yml`).
 - [ ] No Google/Bing site verification set.
 

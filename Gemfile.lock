@@ -33,9 +33,6 @@ GEM
       activesupport (>= 6.0, < 8.0)
       jekyll (>= 3.9, < 5.0)
       nokogiri (>= 1.13, < 2.0)
-    al_comments (1.0.0)
-      jekyll (>= 3.9, < 5.0)
-      liquid (>= 4.0, < 6.0)
     al_cookie (1.0.1)
       jekyll (>= 3.9, < 5.0)
       liquid (>= 4.0, < 6.0)
@@ -357,7 +354,6 @@ DEPENDENCIES
   al_analytics (= 1.0.2)
   al_charts (= 1.0.1)
   al_citations (= 1.0.1)
-  al_comments (= 1.0.0)
   al_cookie (= 1.0.1)
   al_email_protect (= 1.0.0)
   al_ext_posts (= 1.0.3)
@@ -405,7 +401,6 @@ CHECKSUMS
   al_analytics (1.0.2) sha256=0c8e0c029b1a28401d21ed9b56033036697e61722a0d8867f33c30010ad738d6
   al_charts (1.0.1) sha256=ce26374c2b1159ae0d65dc7999730be700a9ee486002ae14cb480eef70580885
   al_citations (1.0.1) sha256=308cfd4cd73c8dc6d24c0214f424b61606b3a393bdb899394fce80dd647cba59
-  al_comments (1.0.0) sha256=1da87a29b55e4d9fd62d380200af9671f10ae4a84e3259828588498d8f3210e5
   al_cookie (1.0.1) sha256=2420241497b1fb165311ba1c9e059a9025586925b65dbba429aee225bd91a67f
   al_email_protect (1.0.0) sha256=539c483657e35ee0b49197b7149df2584ee02fd2282efbf5ac190bf78bb78f26
   al_ext_posts (1.0.3) sha256=c4956d36071958d30de14f6c368863d3e4190dfe312dba08ff79aa685292420d
