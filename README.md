@@ -40,8 +40,6 @@ documentation.
 - [x] ~~Old `gh-pages` branch~~ — deleted (unused now that deploy is Actions-native).
 - [x] ~~Repo is private / site lives at a `sitek.github.io/siteklab.github.io/` subpath~~ — moved to the public
       `siteklab/siteklab.github.io` repo, served at https://siteklab.github.io.
-- [ ] Old URL `sitek.github.io/siteklab.github.io/` now 404s (GitHub doesn't redirect Pages after a transfer) —
-      optionally add a redirect page in the personal-site repo, and update external links (faculty pages, bios).
 - [ ] Custom domain — not set up yet.
 
 **CI / test infrastructure**
