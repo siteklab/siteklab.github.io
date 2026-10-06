@@ -41,6 +41,8 @@ def parse_authors(author_field):
         if "," not in part:
             continue
         family, given = part.split(",", 1)
+        # strip equal-contribution markers (e.g. "Chandra*"), which al-folio renders as superscripts
+        family = re.sub(r"[*∗†‡§¶‖&^]+", "", family)
         people.append((family.strip(), given.strip()))
     return people
 

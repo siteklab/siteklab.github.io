@@ -25,4 +25,5 @@ variability of everyday speech production, and where in the auditory pathway it 
 Using scalp-recorded EEG during speech production and playback, auditory cortex activity tracks the acoustic
 variability of self-produced speech. More recent work combining EEG and functional MRI is now testing whether this
 auditory–motor modulation originates in cortex alone or extends to earlier, subcortical stages of the auditory
-pathway — funded by an NIDCD Early Career Research (R21) Award.
+pathway — funded by an NIDCD Early Career Research (R21) Award. Our first results suggest that motor signals
+modulate cortical, but not subcortical, processing of self-initiated sounds {% cite raiff2026motor %}.
