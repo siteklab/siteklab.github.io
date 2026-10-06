@@ -27,8 +27,7 @@ When an official lab name is chosen, update all of the following together:
 
 - [ ] Lab name is still a placeholder ("Sitek Lab") — see "Renaming the lab" above.
 - [x] ~~Contact email is a placeholder~~ — updated to `kevin.sitek@utdallas.edu`.
-- [ ] No CV PDF set (`_pages/cv.md` `cv_pdf:` is empty) — generate via `rendercv` from `_data/cv.yml`, or link an
-      external CV.
+- [x] ~~No CV PDF set~~ — `_pages/cv.md` `cv_pdf:` links to the rendercv PDF on sitek.github.io.
 
 **Data integrity**
 
