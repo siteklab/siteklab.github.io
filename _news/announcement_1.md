@@ -6,6 +6,4 @@ inline: false
 related_posts: false
 ---
 
-<!-- PLACEHOLDER content — update once the lab has an official name. -->
-
-Welcome! This site will track lab news as we prepare to open in the [Department of Speech, Language, and Hearing](https://bbs.utdallas.edu/departments/speech-language-and-hearing/) at UT Dallas in **January 2027**. Check back for updates on recruiting, publications, and research progress.
+Welcome to the **Speech and Hearing Pathways Lab**! This site will track lab news as we prepare to open in the [Department of Speech, Language, and Hearing](https://bbs.utdallas.edu/departments/speech-language-and-hearing/) at UT Dallas in **January 2027**. Check back for updates on recruiting, publications, and research progress.

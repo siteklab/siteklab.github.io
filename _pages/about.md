@@ -29,9 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<!-- PLACEHOLDER — lab name and identity are not yet finalized. See README "Renaming the lab" for what to update when they are. -->
-
-The (placeholder-named) **Sitek Lab** investigates the neural systems underlying human communication, with a focus
+The **Speech and Hearing Pathways Lab** investigates the neural systems underlying human communication, with a focus
 on the auditory system and speech processing. We use state-of-the-art neuroimaging — functional MRI, diffusion-weighted
 MRI tractography, ultra-high field (7T+) and post mortem imaging, and EEG — to study subcortical auditory structures
 that are difficult to access with standard human neuroimaging, and to connect findings across animal models and human

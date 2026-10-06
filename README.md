@@ -1,30 +1,20 @@
-# Sitek Lab website
+# Speech and Hearing Pathways Lab website
 
-This repo is Kevin Sitek's future lab website, built on the [al-folio](https://github.com/alshedivat/al-folio)
-Jekyll starter. The lab opens January 2027 in the Department of Speech, Language, and Hearing, School of
-Behavioral and Brain Sciences, at UT Dallas. **The lab doesn't have an official name yet**, so the repo, site
-title, and URL currently use "Sitek Lab" / `siteklab.github.io` as placeholders.
+This repo is the website for Kevin Sitek's **Speech and Hearing Pathways Lab**, built on the
+[al-folio](https://github.com/alshedivat/al-folio) Jekyll starter. The lab opens January 2027 in the Department of
+Speech, Language, and Hearing, School of Behavioral and Brain Sciences, at UT Dallas.
+
+The site is served at **https://siteklab.github.io** from the `siteklab` GitHub organization. Because the repo name
+matches `<owner>.github.io`, it's an org root site and `baseurl` in `_config.yml` is `""`.
 
 See [About the al-folio starter](#about-the-al-folio-starter) below for links to the upstream project and its
 documentation.
-
-## Renaming the lab
-
-When an official lab name is chosen, update all of the following together:
-
-1. **GitHub repo name** — rename `siteklab.github.io` to `<new-name>.github.io` (repo Settings → rename). GitHub
-   automatically redirects the old repo name for a while, but update any external links (CV, faculty page, social
-   profiles) to the new URL.
-2. **`_config.yml`** — `title`, `url` (and `baseurl` stays `""`).
-3. **Content mentioning "Sitek Lab"** — search for the literal string across `_pages/`, `_news/`, and this README;
-   as of this writing it's isolated to `_pages/about.md`, `_pages/profiles.md`, `_news/announcement_1.md`, and this
-   file. Each spot is marked with a `PLACEHOLDER` comment.
 
 ## Before going live
 
 **Identity & branding**
 
-- [ ] Lab name is still a placeholder ("Sitek Lab") — see "Renaming the lab" above.
+- [x] ~~Lab name is still a placeholder~~ — now the Speech and Hearing Pathways Lab.
 - [x] ~~Contact email is a placeholder~~ — updated to `kevin.sitek@utdallas.edu`.
 - [x] ~~No CV PDF set~~ — no CV page; the PI bio (`_pages/pi_bio.md`) links to the rendercv PDF on sitek.github.io.
 
@@ -46,12 +36,12 @@ When an official lab name is chosen, update all of the following together:
 **Hosting & deployment**
 
 - [x] ~~Deploy workflow didn't match the Pages source~~ — switched to native GitHub Actions deploy.
-- [x] ~~`baseurl` mismatch causing 404s~~ — fixed; site is served at the `/siteklab.github.io` subpath.
+- [x] ~~`baseurl` mismatch causing 404s~~ — fixed.
 - [x] ~~Old `gh-pages` branch~~ — deleted (unused now that deploy is Actions-native).
-- [ ] Repo is private — confirm your GitHub plan actually supports private-repo Pages long-term, or decide whether
-      to make the repo public.
-- [ ] Current URL is the subpath `sitek.github.io/siteklab.github.io/` — decide if that's acceptable long-term vs.
-      renaming the repo or adding a custom domain.
+- [x] ~~Repo is private / site lives at a `sitek.github.io/siteklab.github.io/` subpath~~ — moved to the public
+      `siteklab/siteklab.github.io` repo, served at https://siteklab.github.io.
+- [ ] Old URL `sitek.github.io/siteklab.github.io/` now 404s (GitHub doesn't redirect Pages after a transfer) —
+      optionally add a redirect page in the personal-site repo, and update external links (faculty pages, bios).
 - [ ] Custom domain — not set up yet.
 
 **CI / test infrastructure**
@@ -78,7 +68,7 @@ When an official lab name is chosen, update all of the following together:
 
 ```bash
 bundle install
-bundle exec jekyll serve   # → http://localhost:4000/siteklab.github.io/
+bundle exec jekyll serve   # → http://localhost:4000/
 ```
 
 ---
