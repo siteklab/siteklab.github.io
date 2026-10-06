@@ -19,4 +19,4 @@ profiles:
 ---
 
 We're recruiting graduate students, postdocs, and research assistants ahead of the lab's January 2027 launch —
-see the [about page](/) for contact info.
+see the [join page]({{ '/join/' | relative_url }}) for open positions and how to reach us.

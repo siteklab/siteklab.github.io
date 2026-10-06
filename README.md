@@ -16,8 +16,7 @@ When an official lab name is chosen, update all of the following together:
    automatically redirects the old repo name for a while, but update any external links (CV, faculty page, social
    profiles) to the new URL.
 2. **`_config.yml`** — `title`, `url` (and `baseurl` stays `""`).
-3. **`_data/cv.yml`** — `label` field (currently "Principal Investigator, Sitek Lab").
-4. **Content mentioning "Sitek Lab"** — search for the literal string across `_pages/`, `_news/`, and this README;
+3. **Content mentioning "Sitek Lab"** — search for the literal string across `_pages/`, `_news/`, and this README;
    as of this writing it's isolated to `_pages/about.md`, `_pages/profiles.md`, `_news/announcement_1.md`, and this
    file. Each spot is marked with a `PLACEHOLDER` comment.
 
@@ -27,7 +26,7 @@ When an official lab name is chosen, update all of the following together:
 
 - [ ] Lab name is still a placeholder ("Sitek Lab") — see "Renaming the lab" above.
 - [x] ~~Contact email is a placeholder~~ — updated to `kevin.sitek@utdallas.edu`.
-- [x] ~~No CV PDF set~~ — `_pages/cv.md` `cv_pdf:` links to the rendercv PDF on sitek.github.io.
+- [x] ~~No CV PDF set~~ — no CV page; the PI bio (`_pages/pi_bio.md`) links to the rendercv PDF on sitek.github.io.
 
 **Data integrity**
 

@@ -37,7 +37,7 @@ MRI tractography, ultra-high field (7T+) and post mortem imaging, and EEG — to
 that are difficult to access with standard human neuroimaging, and to connect findings across animal models and human
 communication disorders.
 
-The lab is opening in **January 2027**, led by [Kevin R. Sitek, PhD](/cv/), in the
+The lab is opening in **January 2027**, led by [Kevin R. Sitek, PhD]({{ '/people/' | relative_url }}), in the
 [Department of Speech, Language, and Hearing](https://bbs.utdallas.edu/departments/speech-language-and-hearing/),
 [School of Behavioral and Brain Sciences](https://bbs.utdallas.edu), at UT Dallas. Until then, Kevin is a
 [research assistant professor](https://communication.northwestern.edu/faculty/kevin-sitek.html) in the SoundBrain Lab
