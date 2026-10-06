@@ -38,6 +38,8 @@ although this would be dependent on your own career goals and eligibility.
 To apply, email a CV, a short statement (about one page) of your research interests and how they connect to the lab,
 and contact information for 2–3 references.
 
+Postdoctoral candidates should also consider applying to the [Callier Center Postdoctoral Program](https://calliercenter.utdallas.edu/research/callier-postdoctoral-program/).
+
 ## PhD students
 
 PhD students join the lab through the UT Dallas
