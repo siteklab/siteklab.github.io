@@ -18,6 +18,18 @@ documentation.
 - [x] ~~Contact email is a placeholder~~ — updated to `kevin.sitek@utdallas.edu`.
 - [x] ~~No CV PDF set~~ — no CV page; the PI bio (`_pages/pi_bio.md`) links to the rendercv PDF on sitek.github.io.
 
+**Socials** (links live in `_data/socials.yml`)
+
+- [x] ~~GitHub~~ — links to the `siteklab` org.
+- [x] ~~Bluesky account~~ — created as `siteklab.bsky.social` and linked.
+- [ ] Bluesky — populate it (display name, avatar, bio, first posts).
+- [ ] LinkedIn — create and populate a lab page, then add `linkedin_username` to `_data/socials.yml`.
+- [ ] Mastodon — create and populate a lab account; `_data/socials.yml` still links Kevin's personal
+      `sitek@fediscience.org`.
+- [ ] ResearchGate — create and populate a lab page; `_data/socials.yml` still links Kevin's personal profile.
+- [ ] Lab email address — can't create until January 2027; then replace `kevin.sitek@utdallas.edu` in
+      `_data/socials.yml` and `_pages/join.md` if contact should go to the lab address.
+
 **Data integrity**
 
 - [x] ~~Fabricated bibliography author names/titles~~ — fixed; every entry verified against Crossref.
