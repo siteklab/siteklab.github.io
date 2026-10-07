@@ -20,6 +20,8 @@ along with audiometric and behavioral assessments.
 You'll fit in well if you're curious about auditory and speech neuroscience and comfortable with (or excited to learn) quantitative methods.
 Programming experience (Python, shell, or similar) and familiarity with neuroimaging analysis are a plus, but not required for every role.
 
+Before you reach out, you may want to read the [lab handbook](https://siteklab.github.io/handbook/), which covers our values, mentoring, and what we expect of each other.
+
 **A note on email:** I read every email myself, and I'm much more likely to respond to one you wrote in your own words.
 Tell me briefly who you
 are, what draws you to the lab's work, and which position you're interested in.
