@@ -1,0 +1,60 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// LOCAL OVERRIDE of al_folio_core's assets/css/main.scss (gem 1.0.15).
+// Identical to the gem's file except for (1) the UT Dallas colors passed to "variables" and
+// (2) the "UT Dallas branding" block at the end. When al_folio_core is upgraded, diff this file
+// against the gem's copy and carry those two changes forward.
+// Brand colors: https://brand.utdallas.edu/graphics-visual-identity/color-palette/
+@charset "utf-8";
+
+/* Built-in Sass modules you’ll likely use across partials */
+@use "sass:math";
+@use "sass:string";
+
+/* Configure your design tokens BEFORE loading any of your partials.
+   Make sure `_sass/_variables.scss` declares `$max-content-width: 72rem !default;` */
+@use "variables" with (
+  $max-content-width: {{site.max_width | default: "930px"}},
+  // Theme accent: light mode uses $purple-color, dark mode uses $cyan-color.
+  // #c95100 is UTD's web-accessible orange (4.5:1 on white); #e87500 is UTD Orange (5.7:1 on the dark background).
+  $purple-color: #c95100,
+  $cyan-color: #e87500
+);
+
+/* Your project partials — convert these files to `@use "variables";`
+   (or `@use "variables" as *;`) inside each file and qualify variables if needed. */
+@use "themes";
+@use "layout";
+
+// Core styles organized by usage
+@use "typography";
+@use "navbar";
+@use "footer";
+@use "blog";
+@use "publications";
+@use "components";
+@use "utilities";
+
+// Other specialized styles
+@use "tabs";
+@use "teachings";
+@use "typograms";
+
+/* ---------------------------------------------------------------------------
+ * UT Dallas branding
+ * ------------------------------------------------------------------------- */
+
+// UTD Green footer in both light and dark mode: white text (10.6:1), silverleaf links (6.5:1).
+:root,
+html[data-theme="dark"] {
+  --global-footer-bg-color: #154734;
+  --global-footer-text-color: #ffffff;
+  --global-footer-link-color: #5fe0b7;
+}
+
+// White text on UTD Orange is only 3.0:1, so hovered items use black text in dark mode (7.0:1).
+html[data-theme="dark"] {
+  --global-hover-text-color: #000000;
+}
